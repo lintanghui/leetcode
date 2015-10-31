@@ -10,15 +10,15 @@ func TestLenth(t *testing.T) {
 		str2 = "abccabcd"
 	)
 	lenth := lengthOfLongestSubstring(str1)
-	if 7 != lenth {
-		t.Log(lenth)
+	if 6 != lenth {
+		t.Error(lenth)
 	}
 	lenth = lengthOfLongestSubstring(str2)
-	if 5 != lenth {
-		t.Log(lenth)
+	if 4 != lenth {
+		t.Error(lenth)
 	}
 	lenth = lengthOfLongestSubstring("")
 	if 0 != lenth {
-		t.Log(lenth)
+		t.Error(lenth)
 	}
 }

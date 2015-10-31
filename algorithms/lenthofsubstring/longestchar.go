@@ -14,17 +14,24 @@ func lengthOfLongestSubstring(s string) int {
 		return 0
 	}
 	var (
-		substring [256]rune
-		index     = 0
+		substring       map[rune]int = make(map[rune]int, 0)
+		m, longest, num int
 	)
-	for _, ch := range s {
-		if substring[index] != ch {
-			substring[index] = ch
-			index++
-		} else {
-			index = 0
-			substring[index] = ch
-		}
+	for index, ch := range s {
+		num, _ = substring[ch]
+		m = max(num, m)
+		substring[ch] = index
+		longest = max(longest, index-m)
 	}
-	return len(substring)
+	return longest
+
+}
+
+func max(a, b int) int {
+	if a < b {
+		return b
+	} else {
+		return a
+	}
+
 }
