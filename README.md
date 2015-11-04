@@ -13,3 +13,4 @@ LeetCode Problem's Solutions
 | 9             |[PalindromeNumber](https://leetcode.com/problems/palindrome-number/)|[python](https://github.com/lintanghui/leetcode/blob/master/algorithms/python/palindrome/palindrome.py)|Easy|
 | 11            |[ContainerOfWater](https://leetcode.com/problems/container-with-most-water/)|[python](https://github.com/lintanghui/leetcode/blob/master/algorithms/python/container/maxarea.py)|Medium|
 | 15            |[3sum](https://leetcode.com/problems/3sum/)|[go](https://github.com/lintanghui/leetcode/blob/master/algorithms/golang/threesum/threesum.go)| Medium|
+|299            |[bullandcow](https://leetcode.com/problems/bulls-and-cows/)|[go](https://github.com/lintanghui/leetcode/blob/master/algorithms/golang/bullAndCow/getHint.go)|Medium|
