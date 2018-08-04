@@ -15,4 +15,5 @@ LeetCode Problem's Solutions
 | 15            |[3sum](https://leetcode.com/problems/3sum/)|[go](https://github.com/lintanghui/leetcode/blob/master/algorithms/golang/threesum/threesum.go)| Medium|
 | 199			|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|[go](https://github.com/lintanghui/leetcode/blob/master/algorithms/golang/binaryTreeRightView/rightView.go) |Medium|
 | 299           |[bullandcow](https://leetcode.com/problems/bulls-and-cows/)|[go](https://github.com/lintanghui/leetcode/blob/master/algorithms/golang/bullAndCow/getHint.go)|Easy|
+| 525 | [contiguousArray](https://leetcode.com/problems/contiguous-array/)|[go](algorithms/contiguousArray/solutions.go)| medium |
 | 300           |[lengthofSIL](https://leetcode.com/problems/longest-increasing-subsequence/)|[go](https://github.com/lintanghui/leetcode/blob/master/algorithms/golang/longestIncSub/lengthofLIS.go)|Medium|
