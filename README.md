@@ -15,6 +15,7 @@ LeetCode Problem's Solutions
 | 15            |[3sum](https://leetcode.com/problems/3sum/)|[go](algorithms/golang/threesum/threesum.go)| Medium|
 | 29| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers）| [go](algorithms/golang/divideTwoIntegers/solution.go)| Medium|
 | 199			|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|[go](algorithms/golang/binaryTreeRightView/rightView.go) |Medium|
+| 227 |[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[go](algorithms/golang/basicCalculator/solution.go)|Medium|
 | 299           |[bullandcow](https://leetcode.com/problems/bulls-and-cows/)|[go](algorithms/golang/bullAndCow/getHint.go)|Easy|
 | 300           |[lengthofSIL](https://leetcode.com/problems/longest-increasing-subsequence/)|[go](algorithms/golang/longestIncSub/lengthofLIS.go)|Medium|
 | 525 | [contiguousArray](https://leetcode.com/problems/contiguous-array/)|[go](algorithms/golang/contiguousArray/solutions.go)| medium |
